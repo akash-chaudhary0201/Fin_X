@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Logo from "./images/logo-2.png"
 import { NavLink } from 'react-router-dom';
 
-function Navbarr() {
+function NavBar() {
 
     const customNavbarStyle = {
         backgroundColor: '#23506D '
@@ -24,8 +24,8 @@ function Navbarr() {
                         height="30"
                     ></img>
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="navbarScroll" />
-                <Navbar.Collapse id="navbarScroll">
+                <Navbar.Toggle />
+                <Navbar.Collapse >
                     <Nav
                         className="mx-auto my-2 my-lg-0 fs-5 text-light"
                         style={{ maxHeight: '100px' }}
@@ -68,4 +68,4 @@ function Navbarr() {
     );
 }
 
-export default Navbarr;
+export default NavBar;

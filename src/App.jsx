@@ -1,18 +1,18 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-import Navbarr from './components/Navbarr'
 // import Home from './components/Home'
 import Home from "./components/Home/Home"
 import Services from './components/services/Services'
 import Contact from './components/Contact'
 import Join from './components/Join'
+import NavBar from './components/Navbar'
 
 function App() {
 
   return (
     <>
       <BrowserRouter>
-        <Navbarr />
+        <NavBar />
         <Routes>
 
           <Route path='/' element={<Home />} />
