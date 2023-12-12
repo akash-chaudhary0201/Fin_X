@@ -1,11 +1,16 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import back from "../images/main_back.jpg"
 import about from "../images/about.jpg"
 import CountUp from "react-countup"
 import ScrollTrigger from "react-scroll-trigger"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 function Home() {
+    useEffect(() => {
+        AOS.init();
+    }, [])
 
     const [counterOn, setCounterOn] = useState(false);
 
@@ -26,7 +31,7 @@ function Home() {
                     </span>
                 </div>
             </div>
-            <div className="second">
+            <div className="second" data-aos="fade-right">
                 <div className="second_content">
                     <div className="left_second">
                         <h4>
@@ -45,7 +50,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className="about">
+            <div className="about" data-aos="fade-left">
                 <div className="about_content">
                     <div className="about_left">
                         <div className="leftt">
@@ -69,7 +74,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className="counter">
+            <div className="counter" data-aos="fade-right">
                 <div className="counter_content">
                     <h1>
                         "Innovating finance, empowering you"
@@ -104,7 +109,7 @@ function Home() {
                                 <div className="cc">
                                     <div className="cc_con">
                                         <h2>
-                                            {counterOn && <CountUp start={0} end={20} duration={2} delay={0} />}Y
+                                            {counterOn && <CountUp start={0} end={20} duration={4} delay={0} />}Y
                                         </h2>
                                         <h4>Journey with DNA</h4>
                                     </div>
