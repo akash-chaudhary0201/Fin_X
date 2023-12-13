@@ -6,6 +6,7 @@ import Services from './components/services/Services'
 import Contact from './components/Contact'
 import Join from './components/Join'
 import NavBar from './components/Navbar'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
           <Route path='/join-us' element={<Join />} />
 
         </Routes>
+        <Footer />
       </BrowserRouter>
 
     </>

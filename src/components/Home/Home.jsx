@@ -5,6 +5,8 @@ import CountUp from "react-countup"
 import ScrollTrigger from "react-scroll-trigger"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import logo from "../images/logo-2.png"
+import Footer from '../Footer'
 
 
 function Home() {
@@ -119,6 +121,7 @@ function Home() {
                     </div>
                 </div>
             </div>
+
         </>
     )
 }
