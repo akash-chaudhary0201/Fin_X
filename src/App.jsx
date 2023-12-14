@@ -7,6 +7,8 @@ import Contact from './components/Contact'
 import Join from './components/Join'
 import NavBar from './components/Navbar'
 import Footer from './components/Footer'
+import Finance from './components/services/outlet/Finance/Finance'
+import It from './components/services/outlet/IT/It'
 
 function App() {
 
@@ -17,7 +19,10 @@ function App() {
         <Routes>
 
           <Route path='/' element={<Home />} />
-          <Route path='/services' element={<Services />} />
+          <Route path='/services/' element={<Services />}>
+            <Route path='finance' element={<Finance />}></Route>
+            <Route path='it' element={<It />}></Route>
+          </Route>
           <Route path='/contact-us' element={<Contact />} />
           <Route path='/join-us' element={<Join />} />
 

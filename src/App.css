@@ -374,6 +374,47 @@ body {
   gap: 100px;
 }
 
+.butto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.serv_button button {
+  padding: 10px;
+  width: 180px;
+  margin: 20px;
+  background-color: #23506D;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.serv_button button i {
+  margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 830px) {
   .span {
     padding: 50px;
@@ -462,4 +503,27 @@ body {
     display: none;
   }
 
+  .span2 {
+    padding: 25px;
+  }
+
+  .span2 h4 {
+    font-size: 18px;
+  }
+
+  .span2 h2 {
+    font-size: 20px;
+  }
+
+  .serv_button button {
+    margin: 10px;
+    padding: 2px;
+    width: 80px;
+    font-size: 18px;
+  }
+
+  .service_cards {
+    flex-direction: column;
+    gap: 20px;
+  }
 }

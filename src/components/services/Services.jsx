@@ -1,13 +1,8 @@
 import React, { useEffect } from 'react'
 import back from "../images/serv.jpg"
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-import third from "../images/third.jpg"
-import rep from "../images/rep.jpg"
-import lap from "../images/lap.jpg"
-import core from "../images/core.jpg"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link, Outlet } from "react-router-dom"
 
 function Services() {
 
@@ -35,55 +30,26 @@ function Services() {
                         What We Do
                     </h2>
 
-                    <div className="service_cards" data-aos="fade-right">
-                        <Card style={{ width: '18rem', borderRadius: "10px" }}>
-                            <Card.Img variant="top" src={lap} style={{ height: "200px", width: "100%" }} />
-                            <Card.Body style={{ backgroundColor: "#23506D", color: "white", borderRadius: "10px" }}>
-                                <Card.Title style={{ color: "#E3651D" }}>CORE BATCH PROCESSING</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
-                                </Card.Text>
-                                <Button variant="primary">More</Button>
-                            </Card.Body>
-                        </Card>
-                        <Card style={{ width: '18rem', borderRadius: "10px" }}>
-                            <Card.Img variant="top" src={rep} style={{ height: "200px", width: "100%" }} />
-                            <Card.Body style={{ backgroundColor: "#23506D", color: "white", borderRadius: "10px" }}>
-                                <Card.Title style={{ color: "#E3651D" }}>CUSTOM REPORTS</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
-                                </Card.Text>
-                                <Button variant="primary">More</Button>
-                            </Card.Body>
-                        </Card>
+                    <div className="serv_button">
+                        <div className="buttons">
+                            <div className="butto">
+                                <Link to="finance">
+                                    <button>
+                                        Finance Sevices <i class="fa-solid fa-caret-down"></i>
+                                    </button>
+                                </Link>
+                                <Link to="it">
+                                    <button>
+                                        IT Sevices <i class="fa-solid fa-caret-down"></i>
+                                    </button>
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="outlet">
+                            <Outlet />
+                        </div>
                     </div>
 
-                    <div className="service_cards" data-aos="fade-left">
-                        <Card style={{ width: '18rem', borderRadius: "10px" }}>
-                            <Card.Img variant="top" src={third} style={{ height: "200px", width: "100%" }} />
-                            <Card.Body style={{ backgroundColor: "#23506D", color: "white", borderRadius: "10px" }}>
-                                <Card.Title style={{ color: "#E3651D" }}>THIRD-PARTY INTEGRATIONS</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
-                                </Card.Text>
-                                <Button variant="primary">More</Button>
-                            </Card.Body>
-                        </Card>
-                        <Card style={{ width: '18rem', borderRadius: "10px" }}>
-                            <Card.Img variant="top" src={core} style={{ height: "200px", width: "100%" }} />
-                            <Card.Body style={{ backgroundColor: "#23506D", color: "white", borderRadius: "10px" }}>
-                                <Card.Title style={{ color: "#E3651D" }}>CORE BANKING MODERNIZATION</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
-                                </Card.Text>
-                                <Button variant="primary">More</Button>
-                            </Card.Body>
-                        </Card>
-                    </div>
 
                 </div>
             </div>
