@@ -1,10 +1,10 @@
 import React from 'react'
-import logo from "./images/logo-2.png"
+import logo from "../images/logo-2.png"
 
 function Footer() {
     return (
         <>
-            <div className="footer" data-aos="fade-up">
+            <div className="footer">
                 <div className="footer_content">
                     <div className="left_footer">
                         <img src={logo} alt="" />

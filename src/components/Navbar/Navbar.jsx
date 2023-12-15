@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Logo from "./images/logo-2.png"
+import Logo from "../images/logo-2.png"
 import { NavLink } from 'react-router-dom';
 
 function NavBar() {
@@ -11,8 +11,6 @@ function NavBar() {
     const customNavbarStyle = {
         backgroundColor: '#23506D '
     };
-
-
 
     return (
         <Navbar expand="lg" style={customNavbarStyle} fixed="top">

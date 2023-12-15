@@ -6,7 +6,7 @@ import ScrollTrigger from "react-scroll-trigger"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import logo from "../images/logo-2.png"
-import Footer from '../Footer'
+import Footer from '../Footer/Footer'
 
 
 function Home() {

@@ -14,7 +14,7 @@ function It() {
 
             <div className="it_main">
                 <div className="it_content">
-                    <div className="service_cards" data-aos="fade-right">
+                    <div className="service_cards" data-aos="fade-left">
                         <Card style={{ width: '18rem', borderRadius: "10px" }}>
                             <Card.Img variant="top" src={ai} style={{ height: "200px", width: "100%" }} />
                             <Card.Body style={{ backgroundColor: "#23506D", color: "white", borderRadius: "0 0 10px 10px" }}>

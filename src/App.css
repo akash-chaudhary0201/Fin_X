@@ -395,6 +395,14 @@ body {
   margin-left: 5px;
 }
 
+.fin_det {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px;
+}
+
+
 
 
 
