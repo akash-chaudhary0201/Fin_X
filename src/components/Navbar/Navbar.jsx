@@ -22,11 +22,10 @@ function NavBar() {
                         height="30"
                     ></img>
                 </Navbar.Brand>
-                <Navbar.Toggle />
+                <Navbar.Toggle style={{ outline: "white" }} />
                 <Navbar.Collapse >
                     <Nav
                         className="mx-auto my-2 my-lg-0 fs-5 text-light"
-                        style={{ maxHeight: '100px' }}
                         navbarScroll
                     >
                         <Nav.Link href="#action1" className='me-5 text-white'>

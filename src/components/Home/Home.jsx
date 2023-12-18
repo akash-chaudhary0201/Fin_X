@@ -52,7 +52,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className="about" data-aos="fade-left">
+            <div className="about" data-aos="fade-right">
                 <div className="about_content">
                     <div className="about_left">
                         <div className="leftt">

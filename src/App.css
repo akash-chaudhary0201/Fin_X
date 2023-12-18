@@ -371,6 +371,8 @@ body {
 .service_cards {
   margin-top: 20px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 100px;
 }
 
@@ -402,24 +404,297 @@ body {
   padding: 200px;
 }
 
+.ai_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.ai_sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.ai_sec_con {
+  display: flex;
+  gap: 20px;
+}
+
+.ai_sec_lef {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ai_sec_lef h3 {
+  color: #E3651D;
+  font-size: 30px;
+  position: relative;
+}
+
+.ai_sec_lef h3::before {
+  content: '';
+  height: 100%;
+  width: 2%;
+  background-color: #23506D;
+  position: absolute;
+  left: -5%;
+  border-radius: 20px;
+}
+
+.ai_sec_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ai_sec_right p {
+  font-size: 20px;
+}
+
+.ai_third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #B6C4B6;
+}
+
+.ai_third h2 {
+  margin-bottom: 20px;
+  color: #23506D;
+  font-size: 40px;
+}
+
+.ai_third p {
+  font-size: 18px;
+}
+
+.ai_fourth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.ai_fourth h1 {
+  text-align: center;
+  color: #23506D;
+}
+
+.fourth_right {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.fourth_right img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.fourth_both {
+  display: flex;
+  gap: 100px;
+}
+
+.fourth_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #23506D;
+}
+
+.ai_fifth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #B6C4B6;
+}
+
+.fif_div {
+  width: 250px;
+  background-color: #23506D;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.fifth_divs {
+  display: flex;
+  margin-top: 20px;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.fif_div_con {
+  border-radius: 20px;
+  box-shadow: 0 0 20px #23506D;
+
+}
+
+.fif_div_con h3 {
+  text-align: center;
+  border-radius: 20px 20px 0 0;
+  color: #E3651D;
+  background-color: white;
+  padding: 5px;
+}
+
+.fif_head {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #23506D;
+  font-size: 40px;
+}
+
+.fif_sub {
+  color: #E3651D;
+  font-size: 25px;
+  text-align: center;
+}
+
+.fif_para {
+  text-align: center;
+  font-size: 20px;
+  color: #23506D;
+  margin-top: 20px;
+}
+
+.fif_div_con p {
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+.ae_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.join_main {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 
+.span2 h1 {
+  color: #23506D;
+}
 
+.join_sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
 
+.join_btns button {
+  width: 200px;
+  margin: 20px;
+  padding: 15px;
+  background-color: #23506D;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  z-index: -1;
+}
 
+.join_btns h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
+.overlay_mod {
+  background-color: #23506D;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+}
 
+.mod1_con {
+  max-width: 600px;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #23506D;
+  border-radius: 20px;
+}
 
+.modd {
+  color: white;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
 
+.modd h4 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #E3651D;
+}
 
+.modd p {
+  float: right;
+  font-size: 20px;
+  position: relative;
+}
 
+.modd form {
+  text-align: center;
+}
 
+.modd input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
 
+.modd input::placeholder {
+  color: rgb(177, 176, 176);
+  font-size: 16px;
+}
 
+.modd input:focus {
+  outline: none;
+}
 
-
-
-
+.sbmt_btn {
+  background-color: #E3651D;
+  color: white;
+  font-size: 20px;
+}
 
 
 
@@ -525,13 +800,63 @@ body {
 
   .serv_button button {
     margin: 10px;
-    padding: 2px;
-    width: 80px;
+    padding: 10px;
+    width: 160px;
     font-size: 18px;
   }
 
   .service_cards {
     flex-direction: column;
     gap: 20px;
+  }
+
+  .ai_sec_con {
+    flex-direction: column;
+  }
+
+  .span2 h1 {
+    font-size: 20px;
+  }
+
+  .ai_sec_lef h3 {
+    font-size: 25px;
+  }
+
+  .ai_sec_right p {
+    font-size: 18px;
+  }
+
+  .ai_third_con h2 {
+    font-size: 25px;
+  }
+
+  .ai_third_con p {
+    font-size: 18px;
+  }
+
+  .ai_fourth {
+    display: none;
+  }
+
+  .ai_fifth {
+    background-color: white;
+  }
+
+  .fif_head {
+    font-size: 25px;
+  }
+
+  .fif_sub,
+  .fif_para {
+    display: none;
+  }
+
+  .fifth_divs {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .butto {
+    flex-direction: column;
   }
 }

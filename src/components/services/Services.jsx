@@ -35,12 +35,12 @@ function Services() {
                             <div className="butto">
                                 <Link to="finance">
                                     <button>
-                                        Finance Sevices <i class="fa-solid fa-caret-down"></i>
+                                        Finance Sevices
                                     </button>
                                 </Link>
                                 <Link to="it">
                                     <button>
-                                        IT Sevices <i class="fa-solid fa-caret-down"></i>
+                                        IT Sevices
                                     </button>
                                 </Link>
                             </div>

@@ -5,7 +5,6 @@ import third from "../outimages/third.jpg"
 import rep from "../outimages/rep.jpg"
 import lap from "../outimages/lap.jpg"
 import core from "../outimages/core.jpg"
-import { NavLink } from 'react-router-dom';
 
 function Finance() {
     return (

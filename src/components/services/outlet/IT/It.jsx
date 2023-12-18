@@ -7,6 +7,8 @@ import aut from "../outimages/aut.jpg"
 import cloud from "../outimages/cloud.jpg"
 import dev from "../outimages/dev.jpg"
 import modern from "../outimages/modern.jpg"
+import { NavLink } from 'react-router-dom';
+
 
 function It() {
     return (
@@ -14,7 +16,7 @@ function It() {
 
             <div className="it_main">
                 <div className="it_content">
-                    <div className="service_cards" data-aos="fade-left">
+                    <div className="service_cards" data-aos="fade-right">
                         <Card style={{ width: '18rem', borderRadius: "10px" }}>
                             <Card.Img variant="top" src={ai} style={{ height: "200px", width: "100%" }} />
                             <Card.Body style={{ backgroundColor: "#23506D", color: "white", borderRadius: "0 0 10px 10px" }}>
@@ -23,7 +25,7 @@ function It() {
                                     Some quick example text to build on the card title and make up the
                                     bulk of the card's content.
                                 </Card.Text>
-                                <Button className='boot_butt' style={{ backgroundColor: "#E3651D" }}>More</Button>
+                                <NavLink to="aidet"> <Button className='boot_butt' style={{ backgroundColor: "#E3651D" }}>More</Button></NavLink>
                             </Card.Body>
                         </Card>
                         <Card style={{ width: '18rem', borderRadius: "10px" }}>
@@ -34,12 +36,12 @@ function It() {
                                     Some quick example text to build on the card title and make up the
                                     bulk of the card's content.
                                 </Card.Text>
-                                <Button className='boot_butt' style={{ backgroundColor: "#E3651D" }}>More</Button>
+                                <NavLink to="aedet"> <Button className='boot_butt' style={{ backgroundColor: "#E3651D" }}>More</Button></NavLink>
                             </Card.Body>
                         </Card>
                     </div>
 
-                    <div className="service_cards" data-aos="fade-left">
+                    <div className="service_cards" data-aos="fade-right">
                         <Card style={{ width: '18rem', borderRadius: "10px" }}>
                             <Card.Img variant="top" src={aut} style={{ height: "200px", width: "100%" }} />
                             <Card.Body style={{ backgroundColor: "#23506D", color: "white", borderRadius: "0 0 10px 10px" }}>
@@ -48,7 +50,7 @@ function It() {
                                     Some quick example text to build on the card title and make up the
                                     bulk of the card's content.
                                 </Card.Text>
-                                <Button className='boot_butt' style={{ backgroundColor: "#E3651D" }}>More</Button>
+                                <NavLink to="iadet"> <Button className='boot_butt' style={{ backgroundColor: "#E3651D" }}>More</Button></NavLink>
                             </Card.Body>
                         </Card>
                         <Card style={{ width: '18rem', borderRadius: "10px" }}>
@@ -59,12 +61,12 @@ function It() {
                                     Some quick example text to build on the card title and make up the
                                     bulk of the card's content.
                                 </Card.Text>
-                                <Button className='boot_butt' style={{ backgroundColor: "#E3651D" }}>More</Button>
+                                <NavLink to="csdet"> <Button className='boot_butt' style={{ backgroundColor: "#E3651D" }}>More</Button></NavLink>
                             </Card.Body>
                         </Card>
                     </div>
 
-                    <div className="service_cards" data-aos="fade-left">
+                    <div className="service_cards" data-aos="fade-right">
                         <Card style={{ width: '18rem', borderRadius: "10px" }}>
                             <Card.Img variant="top" src={modern} style={{ height: "200px", width: "100%" }} />
                             <Card.Body style={{ backgroundColor: "#23506D", color: "white", borderRadius: "0 0 10px 10px" }}>
@@ -73,7 +75,7 @@ function It() {
                                     Some quick example text to build on the card title and make up the
                                     bulk of the card's content.
                                 </Card.Text>
-                                <Button className='boot_butt' style={{ backgroundColor: "#E3651D" }}>More</Button>
+                                <NavLink to="lmdet"> <Button className='boot_butt' style={{ backgroundColor: "#E3651D" }}>More</Button></NavLink>
                             </Card.Body>
                         </Card>
                         <Card style={{ width: '18rem', borderRadius: "10px" }}>
@@ -84,7 +86,7 @@ function It() {
                                     Some quick example text to build on the card title and make up the
                                     bulk of the card's content.
                                 </Card.Text>
-                                <Button className='boot_butt' style={{ backgroundColor: "#E3651D" }}>More</Button>
+                                <NavLink to="devdet"> <Button className='boot_butt' style={{ backgroundColor: "#E3651D" }}>More</Button></NavLink>
                             </Card.Body>
                         </Card>
                     </div>
