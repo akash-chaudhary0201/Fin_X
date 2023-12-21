@@ -14,6 +14,7 @@ import IA from './components/services/outlet/IT/IA'
 import CS from './components/services/outlet/IT/CS'
 import Lm from './components/services/outlet/IT/Lm'
 import Dev from './components/services/outlet/IT/Dev'
+import { ToastContainer } from 'react-toastify';
 
 function App() {
 
@@ -39,6 +40,7 @@ function App() {
 
         </Routes>
         <Footer />
+        <ToastContainer />
       </BrowserRouter>
 
     </>
