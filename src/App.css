@@ -696,6 +696,108 @@ body {
   font-size: 20px;
 }
 
+.contact_map {
+  display: flex;
+}
+
+.contact_sec_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_sec_right ul {
+  list-style: none;
+}
+
+.contact_sec_right ul li {
+  margin-top: 10px;
+  font-size: 22px;
+}
+
+.contact_sec_right ul li span {
+  color: #E3651D;
+}
+
+.contact_sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #B6C4B6;
+}
+
+.contact_sec h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #23506D;
+}
+
+.contact_third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.contact_third_right form input {
+  display: block;
+  width: 400px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.contact_third_right form input:focus {
+  outline: none;
+}
+
+.contact_third_right form textarea {
+  width: 400px;
+  padding: 10px;
+}
+
+.contact_third_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.contact_third_left ul {
+  list-style: none;
+}
+
+.contact_third_left ul li {
+  font-size: 22px;
+  color: #23506D;
+  margin-bottom: 20px;
+}
+
+.contact_third_left ul li span {
+  color: #E3651D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 830px) {
